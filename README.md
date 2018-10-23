@@ -39,3 +39,4 @@ And an association record for R functions.
 ```
 <association id="r_function" langID="54" />
 ```
+You can directly download these two files from this repository.
