@@ -16,7 +16,7 @@ to
  
 # R function list
 
-At the same folder, you can find functionList.xml. Add the following parser to the file.
+At the same folder, you can find functionList.xml. Add the following parser to the file, which uses REGEX to find R function definitions and add the full function declaration to the function list.
 ```
 <!-- ========================================================= [ R ] -->
 <!-- R - R class and function parser: experimental by Shipeng Sun    -->
