@@ -37,5 +37,5 @@ At the same folder, you can find functionList.xml. Add the following parser to t
 And an association record for R functions.
 
 ```
-<association id=       	"r_function"   	  langID="54"                          />
+<association id="r_function" langID="54" />
 ```
