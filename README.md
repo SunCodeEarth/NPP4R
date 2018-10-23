@@ -21,13 +21,7 @@ At the same folder, you can find functionList.xml. Add the following parser to t
 <!-- ========================================================= [ R ] -->
 <!-- R - R class and function parser: experimental by Shipeng Sun    -->
 <!-- Revised from the JavaScript function parser below.              -->
-<parser
-		id         ="r_function"
-		displayName="R"
-		commentExpr="(?x)                                           # Utilize inline comments (see `RegEx - Pattern Modifiers`)
-								(?m-s:\#.*?$)                                   # Single Line Comment
-							"				
->
+<parser id ="r_function" displayName="R" commentExpr="(?x)(?m-s:\#.*?$)">
   <function
 	  mainExpr="((^|\s+|[;\}\.])([A-Za-z_$][\w$]*\.)*[A-Za-z_$][\w$]*\s*([\<][\-]|[=:])|^|[\s;\}]+)\s*function(\s+[A-Za-z_$][\w$]*)?\s*\([^\)\(]*\)[\n\s]*\{"
 	>
