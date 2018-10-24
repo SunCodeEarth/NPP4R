@@ -16,7 +16,7 @@ to
  
 # R function list
 
-At the same folder, you can find functionList.xml. Add the following parser to the file, which uses REGEX to find R function definitions and add the full function declaration to the function list.
+Although popular R IDE like RStudio can maintain a function list for R, the list is below a long list of global and local variables. Notepad++ provides a much cleaner environment for R function coding. It is much more easier to navigate a large R function definition file in Notepad++. However, Notepad++ does not provide a REGEX parser for R functions.  In the same folder as the aboved mentioned langs.xml, there is a file functionList.xml. Add the following parser to that file. This parser uses REGEX to find R function definitions and adds the full function declaration to the function list.
 ```
 <!-- ========================================================= [ R ] -->
 <!-- R - R class and function parser: experimental by Shipeng Sun    -->
@@ -39,4 +39,4 @@ And an association record for R functions.
 ```
 <association id="r_function" langID="54" />
 ```
-You can directly download these two files from this repository.
+These two files are available for download from this repository.
