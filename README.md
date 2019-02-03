@@ -39,6 +39,6 @@ And an association record for R functions.
 ```
 <association id="r_function" langID="54" />
 ```
-These two files are available for download from this repository. And if everything works out fine, you should be able to see something like this. ![R Functions in Notepad++](./img.jpg?raw=true "R Function List in Notepad++")
+These two files are available for download from this repository. And if everything works out fine, you should be able to see something like this. ![R Functions in Notepad++](./NPP_R_function_list.png?raw=true "R Function List in Notepad++")
 
 
