@@ -8,9 +8,9 @@ Notepad++ Settings for R Code.
 
 The language of REBOL also uses .R or .r as file extension. And it seems that Notepad++ gives a higher prioirty to REBOL. As a result, .R or .r file is intpreted as REBOL by default. To address this issue, the langs.xml file needs to be changed. This file is in ```C:\Users\[Your Windows User Name]\AppData\Roaming\Notepad++``` folder on Windows platform. And a template copy is also in the NPP installation folder such as ```C:\Program Files\Notepad++```.  Just remove the "r" extension from the REBOL record. 
 
-Change the line 
+Change the line <br>
 ```<Language name="r rebol" ext="reb" commentLine=";" commentStart="" commentEnd="">```
-to 
+to <br>
 ```<Language name="rebol" ext="reb" commentLine=";" commentStart="" commentEnd="">```
   
  
